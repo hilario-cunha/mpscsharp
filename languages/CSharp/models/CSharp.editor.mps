@@ -122,6 +122,27 @@
           <ref role="1k5W1q" to="tpen:hinfsDb" resolve="EmptyCell" />
         </node>
       </node>
+      <node concept="3F0ifn" id="5zCXqMH1_PS" role="3EZMnx">
+        <node concept="pVoyu" id="5zCXqMH1_PT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="5zCXqMH1zdN" role="3EZMnx">
+        <ref role="1NtTu8" to="wg1d:5zCXqMH1zaQ" resolve="globalAttributes" />
+        <node concept="2iRkQZ" id="5zCXqMH1zeX" role="2czzBx" />
+        <node concept="pVoyu" id="5zCXqMH1zea" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="5zCXqMH1zf0" role="2czzBI">
+          <property role="3F0ifm" value="&lt;&lt;no global attributtes&gt;&gt;" />
+          <ref role="1k5W1q" to="tpen:hinfsDb" resolve="EmptyCell" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5zCXqMH1_QH" role="3EZMnx">
+        <node concept="pVoyu" id="5zCXqMH1_QI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F2HdR" id="5zCXqMH0D_r" role="3EZMnx">
         <ref role="1NtTu8" to="wg1d:5zCXqMH0xHZ" resolve="members" />
         <node concept="2iRkQZ" id="5zCXqMH0D_w" role="2czzBx" />
@@ -176,7 +197,25 @@
       <node concept="3F1sOY" id="5zCXqMH1s3B" role="3EZMnx">
         <ref role="1NtTu8" to="wg1d:5zCXqMH1s2y" resolve="namespaceOrTypeName" />
       </node>
+      <node concept="3F0ifn" id="5zCXqMH1umI" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
       <node concept="l2Vlx" id="5zCXqMH1s33" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5zCXqMH1ulF">
+    <ref role="1XX52x" to="wg1d:5zCXqMH1ulf" resolve="CsUsingNamespaceDirective" />
+    <node concept="3EZMnI" id="5zCXqMH1ulM" role="2wV5jI">
+      <node concept="3F0ifn" id="5zCXqMH1ulT" role="3EZMnx">
+        <property role="3F0ifm" value="using" />
+      </node>
+      <node concept="3F1sOY" id="5zCXqMH1umr" role="3EZMnx">
+        <ref role="1NtTu8" to="wg1d:5zCXqMH1ump" resolve="namespaceName" />
+      </node>
+      <node concept="3F0ifn" id="5zCXqMH1umz" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
+      <node concept="l2Vlx" id="5zCXqMH1ulP" role="2iSdaV" />
     </node>
   </node>
 </model>
