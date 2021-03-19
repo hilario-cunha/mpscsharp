@@ -70,9 +70,9 @@
     <node concept="1TJgyj" id="5zCXqMH0xHZ" role="1TKVEi">
       <property role="IQ2ns" value="6406640591920307071" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="members" />
+      <property role="20kJfa" value="namespaceMemberDeclarations" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5zCXqMH0xHT" resolve="CsCompilationUnitMember" />
+      <ref role="20lvS9" node="3ki29e8L1yF" resolve="CsNamespaceMemberDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="5zCXqMH0xHR">
@@ -81,22 +81,11 @@
     <property role="34LRSv" value="extern alias" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5zCXqMH0KYI" role="PzmwI">
-      <ref role="PrY4T" node="5zCXqMH0ILu" resolve="CsIdentifier" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="5zCXqMH0xHT">
-    <property role="EcuMT" value="6406640591920307065" />
-    <property role="TrG5h" value="CsCompilationUnitMember" />
-  </node>
-  <node concept="1TIwiD" id="5zCXqMH0xHU">
-    <property role="TrG5h" value="CsCompilationUnitEmptyMember" />
-    <property role="EcuMT" value="6406640591920307064" />
-    <node concept="PrWs8" id="5zCXqMH0xHV" role="PzmwI">
-      <ref role="PrY4T" node="5zCXqMH0xHT" resolve="CsCompilationUnitMember" />
+      <ref role="PrY4T" node="5zCXqMH0ILu" resolve="CsValidIdentifier" />
     </node>
   </node>
   <node concept="PlHQZ" id="5zCXqMH0ILu">
-    <property role="TrG5h" value="CsIdentifier" />
+    <property role="TrG5h" value="CsValidIdentifier" />
     <property role="EcuMT" value="6406640591920360541" />
     <node concept="PrWs8" id="5zCXqMH0KO5" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -120,7 +109,7 @@
       <ref role="20lvS9" node="5zCXqMH1s2x" resolve="CsNamespaceOrTypeName" />
     </node>
     <node concept="PrWs8" id="5zCXqMH1s3a" role="PzmwI">
-      <ref role="PrY4T" node="5zCXqMH0ILu" resolve="CsIdentifier" />
+      <ref role="PrY4T" node="5zCXqMH0ILu" resolve="CsValidIdentifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="5zCXqMH1s2x">
@@ -145,13 +134,94 @@
     <property role="TrG5h" value="CsNamespaceName" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5zCXqMH1wKW" role="PzmwI">
-      <ref role="PrY4T" node="5zCXqMH0ILu" resolve="CsIdentifier" />
+      <ref role="PrY4T" node="5zCXqMH0ILu" resolve="CsValidIdentifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="5zCXqMH1zaP">
     <property role="EcuMT" value="6406640591920575157" />
     <property role="TrG5h" value="CsGlobalAttribute" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="3ki29e8L1yE">
+    <property role="EcuMT" value="3824128463338739882" />
+    <property role="TrG5h" value="CsNamespaceDeclaration" />
+    <property role="34LRSv" value="namespace" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3ki29e8L1yG" role="PzmwI">
+      <ref role="PrY4T" node="3ki29e8L1yF" resolve="CsNamespaceMemberDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="3ki29e8L5Qe" role="1TKVEi">
+      <property role="IQ2ns" value="3824128463338757518" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="qualifiedIdentifier" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3ki29e8L5Qd" resolve="CsQualifiedIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="3ki29e8LnxH" role="1TKVEi">
+      <property role="IQ2ns" value="3824128463338829933" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="namespaceBody" />
+      <ref role="20lvS9" node="3ki29e8LnxG" resolve="CsNamespaceBody" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3ki29e8L1yF">
+    <property role="TrG5h" value="CsNamespaceMemberDeclaration" />
+    <property role="EcuMT" value="3824128463338722260" />
+  </node>
+  <node concept="1TIwiD" id="3ki29e8L1yI">
+    <property role="EcuMT" value="3824128463338739886" />
+    <property role="TrG5h" value="CsTypeDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3ki29e8L1yJ" role="PzmwI">
+      <ref role="PrY4T" node="3ki29e8L1yF" resolve="CsNamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3ki29e8L5Qd">
+    <property role="EcuMT" value="3824128463338757517" />
+    <property role="TrG5h" value="CsQualifiedIdentifier" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3ki29e8L89p" role="1TKVEi">
+      <property role="IQ2ns" value="3824128463338766937" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="identifiers" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="3ki29e8Laso" resolve="CsIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3ki29e8Laso">
+    <property role="EcuMT" value="3824128463338776344" />
+    <property role="TrG5h" value="CsIdentifier" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3ki29e8Lasp" role="PzmwI">
+      <ref role="PrY4T" node="5zCXqMH0ILu" resolve="CsValidIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3ki29e8LnxG">
+    <property role="EcuMT" value="3824128463338829932" />
+    <property role="TrG5h" value="CsNamespaceBody" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3ki29e8OqjL" role="1TKVEi">
+      <property role="IQ2ns" value="3824128463339627761" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="externalAliasDirectives" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5zCXqMH0xHR" resolve="CsExternAliasDirective" />
+    </node>
+    <node concept="1TJgyj" id="3ki29e8OqjQ" role="1TKVEi">
+      <property role="IQ2ns" value="3824128463339627766" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="usingDirectives" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5zCXqMH11Qq" resolve="CsUsingDirective" />
+    </node>
+    <node concept="1TJgyj" id="2kqDUXfJRtY" role="1TKVEi">
+      <property role="IQ2ns" value="2673633700196874110" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="namespaceMemberDeclarations" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3ki29e8L1yF" resolve="CsNamespaceMemberDeclaration" />
+    </node>
   </node>
 </model>
 

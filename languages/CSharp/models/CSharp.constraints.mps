@@ -56,7 +56,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="5zCXqMH0KO4">
-    <ref role="1M2myG" to="wg1d:5zCXqMH0ILu" resolve="CsIdentifier" />
+    <ref role="1M2myG" to="wg1d:5zCXqMH0ILu" resolve="CsValidIdentifier" />
     <node concept="EnEH3" id="5zCXqMH0KO7" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
       <node concept="QB0g5" id="5zCXqMH0LzE" role="QCWH9">
