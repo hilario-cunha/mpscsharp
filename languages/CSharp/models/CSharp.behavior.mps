@@ -289,8 +289,8 @@
                 <ref role="3cqZAo" node="2kqDUXfMQfz" resolve="nodeToValidate" />
               </node>
               <node concept="1mIQ4w" id="2kqDUXfMRi_" role="2OqNvi">
-                <node concept="chp4Y" id="5Qz1xWa1u8o" role="cj9EA">
-                  <ref role="cht4Q" to="wg1d:5zCXqMH1s2w" resolve="CsUsingAliasDirective" />
+                <node concept="chp4Y" id="3ihbEXPf8gh" role="cj9EA">
+                  <ref role="cht4Q" to="wg1d:5zCXqMH11Qq" resolve="CsUsingDirective" />
                 </node>
               </node>
             </node>
@@ -315,6 +315,85 @@
         </node>
       </node>
       <node concept="17QB3L" id="5Qz1xWa1PtQ" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="3ihbEXPiDhf">
+    <ref role="13h7C2" to="wg1d:5zCXqMH1zaP" resolve="CsGlobalAttribute" />
+    <node concept="13hLZK" id="3ihbEXPiDhg" role="13h7CW">
+      <node concept="3clFbS" id="3ihbEXPiDhh" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3ihbEXPiDhq" role="13h7CS">
+      <property role="TrG5h" value="invalidOrderMessage" />
+      <ref role="13i0hy" node="5Qz1xWa1Ox7" resolve="invalidOrderMessage" />
+      <node concept="3Tm1VV" id="3ihbEXPiDhr" role="1B3o_S" />
+      <node concept="3clFbS" id="3ihbEXPiDhw" role="3clF47">
+        <node concept="3clFbF" id="3ihbEXPiDyl" role="3cqZAp">
+          <node concept="Xl_RD" id="3ihbEXPiDyk" role="3clFbG">
+            <property role="Xl_RC" value="Assembly and module attributes must precede all other elements defined in a file except using clauses and extern alias declarations" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="3ihbEXPiDhx" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="3ihbEXPiDBf" role="13h7CS">
+      <property role="TrG5h" value="canAppearAfter" />
+      <ref role="13i0hy" node="2kqDUXfMFVD" resolve="canAppearAfter" />
+      <node concept="3Tm1VV" id="3ihbEXPiDBg" role="1B3o_S" />
+      <node concept="3clFbS" id="3ihbEXPiDBn" role="3clF47">
+        <node concept="3clFbF" id="3ihbEXPiE17" role="3cqZAp">
+          <node concept="22lmx$" id="3ihbEXPiEBH" role="3clFbG">
+            <node concept="22lmx$" id="3ihbEXPiE18" role="3uHU7B">
+              <node concept="22lmx$" id="3ihbEXPiE19" role="3uHU7B">
+                <node concept="2OqwBi" id="3ihbEXPiE1a" role="3uHU7B">
+                  <node concept="37vLTw" id="3ihbEXPiE1b" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3ihbEXPiDBo" resolve="nodeToValidate" />
+                  </node>
+                  <node concept="1mIQ4w" id="3ihbEXPiE1c" role="2OqNvi">
+                    <node concept="chp4Y" id="3ihbEXPiE1d" role="cj9EA">
+                      <ref role="cht4Q" to="wg1d:2kqDUXfMssZ" resolve="CsEmptyCompilationUnitMember" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3ihbEXPiE1e" role="3uHU7w">
+                  <node concept="37vLTw" id="3ihbEXPiE1f" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3ihbEXPiDBo" resolve="nodeToValidate" />
+                  </node>
+                  <node concept="1mIQ4w" id="3ihbEXPiE1g" role="2OqNvi">
+                    <node concept="chp4Y" id="3ihbEXPiE1h" role="cj9EA">
+                      <ref role="cht4Q" to="wg1d:5zCXqMH0xHR" resolve="CsExternAliasDirective" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3ihbEXPiE1i" role="3uHU7w">
+                <node concept="37vLTw" id="3ihbEXPiE1j" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3ihbEXPiDBo" resolve="nodeToValidate" />
+                </node>
+                <node concept="1mIQ4w" id="3ihbEXPiE1k" role="2OqNvi">
+                  <node concept="chp4Y" id="3ihbEXPiE1l" role="cj9EA">
+                    <ref role="cht4Q" to="wg1d:5zCXqMH11Qq" resolve="CsUsingDirective" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3ihbEXPiENw" role="3uHU7w">
+              <node concept="37vLTw" id="3ihbEXPiENx" role="2Oq$k0">
+                <ref role="3cqZAo" node="3ihbEXPiDBo" resolve="nodeToValidate" />
+              </node>
+              <node concept="1mIQ4w" id="3ihbEXPiENy" role="2OqNvi">
+                <node concept="chp4Y" id="3ihbEXPiESU" role="cj9EA">
+                  <ref role="cht4Q" to="wg1d:5zCXqMH1zaP" resolve="CsGlobalAttribute" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3ihbEXPiDBo" role="3clF46">
+        <property role="TrG5h" value="nodeToValidate" />
+        <node concept="3Tqbb2" id="3ihbEXPiDBp" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="3ihbEXPiDBq" role="3clF45" />
     </node>
   </node>
 </model>
